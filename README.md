@@ -6,4 +6,4 @@
 
 [Урок 13](https://vox1oot.github.io/Lesson_13/) - Урок по pixel perfect
 
-[Урок 14](Vox1oot.github.io/Lesson_14/) - Шапка lending page
+[Урок 14](https://vox1oot.github.io/Lesson_14/) - Шапка lending page
