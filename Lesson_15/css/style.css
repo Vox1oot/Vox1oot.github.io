@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Lobster&display=swap');
+@font-face {
+  font-family: 'Bebas Neue';
+  src: local('Bebas Neue Thin'), local('BebasNeue-Thin'), url('../fonts/bebas/bebasneuethin.woff2') format('woff2'), url('../fonts/bebas/bebasneuethin.woff') format('woff'), url('../fonts/bebas/bebasneuethin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+.text-box{
+	padding-top: 2rem;
+}
+.resault {
+	margin-bottom: 0;
+	margin-top: 3rem;
+}
+.fonts {
+	font-size: 2rem;
+	text-align: center;
+	padding: 2rem;
+}
+small {
+	font-size: 1.3rem;
+}
+
+p.resault-opensans {
+  font-family: 'Open Sans';
+}
+
+p.resault-bebas {
+  font-family: 'Bebas Neue';
+}
+
+p.resault-lato {
+  font-family: 'Lato', sans-serif;
+}
+
+p.resault-lobster {
+  font-family: 'Lobster';
+}
+
+
