@@ -9,3 +9,5 @@
 [Урок 14](https://vox1oot.github.io/Lesson_14/) - Шапка lending page
 
 [Урок 15](https://vox1oot.github.io/Lesson_15/) - Подключение шрифтов
+
+[Урок 16](https://vox1oot.github.io/Lesson_16/) - Доделали шапку сайта
