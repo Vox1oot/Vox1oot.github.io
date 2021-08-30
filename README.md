@@ -11,3 +11,5 @@
 [Урок 15](https://vox1oot.github.io/Lesson_15/) - Подключение шрифтов
 
 [Урок 16](https://vox1oot.github.io/Lesson_16/) - Доделали шапку сайта
+
+[Урок 17](Vox1oot.github.io/Lesson_17/) - Псевдо классы и псевдоэлементы
