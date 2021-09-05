@@ -13,3 +13,5 @@
 [Урок 16](https://vox1oot.github.io/Lesson_16/) - Доделали шапку сайта
 
 [Урок 17](https://Vox1oot.github.io/Lesson_17/) - Псевдо классы и псевдоэлементы
+
+[Урок 18](Vox1oot.github.io/Lesson_18/) - адаптив шапки сайта
