@@ -15,3 +15,5 @@
 [Урок 17](https://Vox1oot.github.io/Lesson_17/) - Псевдо классы и псевдоэлементы
 
 [Урок 18](Vox1oot.github.io/Lesson_18/) - адаптив шапки сайта
+
+[Урок 19](Vox1oot.github.io/Lesson_19/) - Первый слайдер fotorama
