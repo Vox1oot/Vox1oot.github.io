@@ -19,3 +19,5 @@
 [Урок 19](Vox1oot.github.io/Lesson_19/) - Первый слайдер fotorama
 
 [Урок 20](https://vox1oot.github.io/Lesson_20/) - Сделали блок с преимуществами (слайдер Slick)
+
+[Урок 21](Vox1oot.github.io/Lesson_21/) - Сделали пример модального окна на чистом CSS
