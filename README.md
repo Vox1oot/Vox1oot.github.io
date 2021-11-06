@@ -27,4 +27,4 @@
 
 [Урок 24](https://vox1oot.github.io/Lesson_24/) - Добавили секцию с ценами
 
-[Урок 24](https://vox1oot.github.io/Lesson_25/) - Добавили к табам анимацию
+[Урок 25](https://vox1oot.github.io/Lesson_25/) - Добавили к табам анимацию
