@@ -30,3 +30,5 @@
 [Урок 25](https://vox1oot.github.io/Lesson_25/) - Добавили к табам анимацию
 
 [Урок 26](https://vox1oot.github.io/Lesson_26/) - Добавили секцию с отзывами
+
+[Урок 27](https://vox1oot.github.io/Lesson_27/) - Урок с видеофоном
