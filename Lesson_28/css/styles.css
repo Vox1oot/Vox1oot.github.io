@@ -1,0 +1,497 @@
+@font-face {
+  font-family: 'ProximaNova-Bold';
+  src: url('../fonts/ProximaNova-Bold.eot');
+  src: url('../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova-Bold.woff2') format('woff2'), url('../fonts/ProximaNova-Bold.woff') format('woff'), url('../fonts/ProximaNova-Bold.ttf') format('truetype'), url('../fonts/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ProximaNova-Regular';
+  src: url('../fonts/ProximaNova-Regular.eot');
+  src: url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova-Regular.woff2') format('woff2'), url('../fonts/ProximaNova-Regular.woff') format('woff'), url('../fonts/ProximaNova-Regular.ttf') format('truetype'), url('../fonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  font-family: 'ProximaNova-Regular', sans-serif;
+}
+html {
+  font-size: 10px;
+}
+.header {
+  height: 70px;
+}
+a:hover {
+  text-decoration: none;
+}
+button:focus,
+input:focus,
+a:focus,
+textarea:focus {
+  outline: none;
+}
+.button {
+  background-color: #f8af01;
+  color: white;
+  padding: 2rem 3rem;
+  border-radius: 1rem;
+  text-transform: uppercase;
+  border: none;
+  font-size: 1.2rem;
+  transition: all 0.2s;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: #df9d01;
+}
+.button-prices {
+  width: 30rem;
+  margin-top: 2.4rem;
+}
+.button-prices-wrap {
+  text-align: right;
+}
+/* Оформление форм */
+.form-input {
+  display: block;
+  margin: 2.5rem 0;
+  width: 100%;
+  border: 1px solid #dddddd;
+  height: 5.5rem;
+  border-radius: 0.5rem;
+}
+.form label {
+  position: absolute;
+  left: 50%;
+  padding: 0.5rem;
+  transform: translateX(-50%) translateY(-50%);
+  background-color: white;
+  border: 2px solid white;
+  font-size: 1.3rem;
+}
+.form-btn {
+  display: block;
+  height: 6.5rem;
+  width: 100%;
+  font-size: 1.6rem;
+}
+section {
+  padding: 10rem 0;
+}
+.section-header {
+  text-align: center;
+  margin: 2rem 0 10rem;
+}
+.section-header-light {
+  color: white;
+}
+.section-header h2 {
+  font-family: 'ProximaNova-Bold', sans-serif;
+  font-size: 3.6rem;
+}
+.section-header p {
+  font-size: 1.8rem;
+  margin-top: 4rem;
+}
+.main {
+  padding: 2rem 0 5rem;
+  background: url(../img/main-bg.jpg) center no-repeat;
+  background-size: cover;
+  background-color: #ff0000;
+}
+.main-content {
+  margin-top: 10rem;
+}
+.main-content h1 {
+  margin-top: 0;
+  margin-bottom: 4rem;
+  font-family: 'ProximaNova-Bold', sans-serif;
+  font-size: 4rem;
+  text-transform: uppercase;
+  line-height: 1.45;
+}
+.main-subtitle {
+  margin-bottom: 4rem;
+  font-size: 2.4rem;
+  font-family: 'ProximaNova-Regular', sans-serif;
+}
+.main-subtitle-mini {
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+.main span {
+  display: inline-block;
+  padding: 3rem 4rem;
+  font-size: 1.8rem;
+  background-color: #70c849;
+  color: white;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.main span strong {
+  font-size: 3rem;
+}
+.main-trigger {
+  display: block;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  font-family: 'ProximaNova-Bold', sans-serif;
+}
+.main-form {
+  padding: 4rem 5rem;
+  background-color: white;
+  text-align: center;
+}
+.main-form-header {
+  font-size: 1.8rem;
+  margin-bottom: 4rem;
+}
+.main-form-header strong {
+  font-size: 1.9rem;
+}
+.main-form small {
+  display: block;
+  margin-top: 1.5rem;
+}
+.phone-link {
+  display: inline-block;
+  color: #1a1820;
+  font-family: 'ProximaNova-Bold', sans-serif;
+  font-size: 2rem;
+  height: 7rem;
+  line-height: 7rem;
+}
+.wrap {
+  display: table;
+  width: 100%;
+  height: 7rem;
+}
+.wrap-block {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: right;
+}
+.features-block {
+  text-align: center;
+}
+.features-block h3 {
+  font-size: 2rem;
+  font-family: 'ProximaNova-Bold', sans-serif;
+  margin-bottom: 2rem;
+}
+.features-block p {
+  display: inline-block;
+  width: 80%;
+  font-size: 1.4rem;
+}
+.features-img {
+  height: 8rem;
+  margin-bottom: 3rem;
+}
+.features-img img {
+  display: block;
+  margin: 0 auto;
+}
+.prev {
+  position: absolute;
+  z-index: 99;
+  width: 2rem;
+  height: 3rem;
+  border: none;
+  top: 40%;
+  left: 0;
+  background: url(../img/ArrowPrev.svg) center no-repeat;
+  background-size: 100%;
+}
+.next {
+  position: absolute;
+  z-index: 99;
+  width: 2rem;
+  height: 3rem;
+  border: none;
+  top: 40%;
+  right: 0;
+  background: url(../img/ArrowNext.svg) center no-repeat;
+  background-size: 100%;
+}
+/* Секция с ценами */
+.prices {
+  background: url("../img/prices-bg.png");
+  /* карточки с ценами */
+}
+.prices-block {
+  padding: 1rem 3rem;
+  background-color: white;
+  box-shadow: 7px 12px 21px 0px rgba(0, 0, 0, 0.17);
+  text-align: center;
+  min-height: 50rem;
+}
+.prices-block h4 {
+  margin: 3rem 0;
+  font-size: 1.9rem;
+  font-family: 'ProximaNova-Bold', sans-serif;
+}
+.prices-block img {
+  width: 100%;
+  max-width: 30rem;
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+.prices-tag {
+  display: block;
+  margin-bottom: 2rem;
+  font-size: 1.9rem;
+  font-family: 'ProximaNova-Bold', sans-serif;
+}
+.prices-tag strong {
+  font-size: 3rem;
+}
+.prices-list {
+  padding: 0;
+  list-style: none;
+  font-family: 'ProximaNova-Bold', sans-serif;
+  font-size: 1.6rem;
+  min-height: 14rem;
+}
+.prices-list li::before {
+  content: '';
+  display: inline-block;
+  margin-right: 1.5rem;
+  width: 1.6rem;
+  height: 1.6rem;
+  background: url('../img/price/check.svg') no-repeat center;
+  background-size: 100%;
+}
+/* Секция с отзывами */
+.feedback {
+  position: relative;
+  background: url(../img/feedback/feedback-bg.jpg) no-repeat center;
+  background-size: cover;
+  /* Оформление формы */
+}
+.feedback p {
+  font-size: 1.6rem;
+}
+.feedback-text {
+  position: relative;
+  padding: 1rem;
+  font-style: italic;
+  border: 2px solid #70c849;
+  margin-top: 2.5rem;
+}
+.feedback-text::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 10px solid;
+  border-color: transparent transparent #70c849 #70c849;
+  left: 40px;
+  top: -20px;
+  transform: skew(25deg, 0deg);
+}
+.feedback-text::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 12px solid;
+  border-color: transparent transparent white white;
+  left: 45px;
+  top: -15px;
+  transform: skew(25deg, 0deg);
+}
+.feedback .media {
+  margin-top: 3rem;
+  font-size: 1.4rem;
+}
+.feedback .media h4 {
+  font-family: 'ProximaNova-Bold', sans-serif;
+}
+.feedback-prev-btn {
+  left: -4rem;
+}
+.feedback-next-btn {
+  right: -4rem;
+}
+.feedback-slider {
+  background-color: white;
+  box-shadow: 6px 10px 18px 0px rgba(0, 0, 0, 0.11);
+  padding: 5rem 6rem;
+}
+.feedback-slider-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4rem;
+  height: 5rem;
+  background-color: #70c849;
+  border: none;
+}
+.feedback-slider-btn img {
+  width: 50%;
+}
+.feedback-form {
+  text-align: center;
+  margin-top: 5rem;
+  padding: 4rem 10rem;
+}
+.feedback-form h3 {
+  margin-bottom: 2rem;
+  font-size: 2.2rem;
+  font-family: 'ProximaNova-Bold', sans-serif;
+}
+.feedback-form label {
+  transform: translate(-50%, 10px);
+}
+.feedback-btn {
+  max-width: 30rem;
+  margin: auto;
+}
+.feedback .hand {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+/* оформление модальных окон */
+.popup {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.popup-content {
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  padding: 4rem 6rem;
+}
+.popup-form {
+  margin-top: 2rem;
+  padding: 0;
+}
+.popup-close {
+  position: absolute;
+  top: -1.5rem;
+  right: -2rem;
+  width: 2rem;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  font-size: 3rem;
+  color: white;
+}
+.popup-content {
+  text-align: center;
+}
+.popup-header {
+  font-family: 'ProximaNova-Bold', sans-serif;
+}
+@media (max-width: 1321px) {
+  .feedback .hand {
+    max-width: 300px;
+  }
+}
+@media (max-width: 1199px) {
+  .feedback-form {
+    padding: 3rem 5rem;
+  }
+}
+@media (max-width: 991px) {
+  .main {
+    background-position: top right;
+  }
+  .phone-block {
+    text-align: center;
+  }
+  .main-content {
+    margin-top: 3rem;
+  }
+  .main-title {
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+  .button-prices {
+    margin-top: 0;
+    margin-bottom: 2rem;
+  }
+  .button-prices-wrap {
+    text-align: center;
+    padding: 2rem 0;
+  }
+  .section-header-light {
+    margin-bottom: 0;
+  }
+  .prices-block {
+    margin-bottom: 1rem;
+  }
+  .feedback-slider-btn {
+    transform: none;
+    top: 22%;
+  }
+  .feedback .hand {
+    display: none;
+  }
+  .feedback label {
+    transform: translate(-50%, -50%);
+  }
+  .feedback .fotorama {
+    margin-bottom: 3rem;
+  }
+}
+@media (max-width: 767px) {
+  .main {
+    background-position: top left;
+  }
+  .header-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .header {
+    text-align: center;
+  }
+  .wrap-block {
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+  .main span {
+    padding: 3rem 7rem;
+  }
+  .phone-link {
+    order: -1;
+  }
+  .main-button {
+    order: 0;
+  }
+  .logo-main {
+    order: 1;
+  }
+  .main-content {
+    margin-top: 100px;
+  }
+  .main-content h1 {
+    font-size: 3rem;
+  }
+  .header-btn {
+    padding: 2rem 2rem;
+  }
+  .main-subtitle-mini {
+    text-align: center;
+  }
+  .feedback-prev-btn {
+    left: 0;
+  }
+  .feedback-next-btn {
+    right: 0;
+  }
+}
