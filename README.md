@@ -34,3 +34,5 @@
 [Урок 27](https://vox1oot.github.io/Lesson_27/) - Урок с видеофоном
 
 [Урок 28](https://vox1oot.github.io/Lesson_28/) - доверстали блок с отзывами
+
+[Урок 29](https://vox1oot.github.io/Lesson_30/) - доверстали блок всё включено
