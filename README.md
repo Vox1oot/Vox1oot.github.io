@@ -38,3 +38,5 @@
 [Урок 29](https://vox1oot.github.io/Lesson_30/) - доверстали блок всё включено
 
 [Урок 30](https://vox1oot.github.io/Lesson_31/) - Добавил карту от Яндекса
+
+[Урок 31](https://vox1oot.github.io/Lesson_32/) - Добавили секция "Развеем все сомнения"
