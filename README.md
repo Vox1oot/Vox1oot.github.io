@@ -40,3 +40,5 @@
 [Урок 30](https://vox1oot.github.io/Lesson_31/) - Добавил карту от Яндекса
 
 [Урок 31](https://vox1oot.github.io/Lesson_32/) - Добавили секция "Развеем все сомнения"
+
+[Урок 33](https://vox1oot.github.io/Lesson_33/) - Добавили секция "Материалы"
